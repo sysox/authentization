@@ -1,20 +1,14 @@
 # PoznejFI
 
-# Abstrakt:
-Zajímá Vás, jak v digitálním světě skutečně ověřujeme identitu? Společně se podíváme na to, jak funguje autentizace v praxi – od hesel přes biometriku až po moderní dvoufaktorové metody. Ukážeme si, proč lidé stále volí slabá hesla, jak se ukládají pomocí hashovacích funkcí a jak je útočníci dokážou prolomit.
+Workshop notebooks for the FI MUNI security lab — identity verification and authentication.
+See [ABSTRAKT.md](ABSTRAKT.md) for the Czech workshop description.
 
-Na konkrétních příkladech si vyzkoušíte limity biometrie: pochopíte, jak funguje rozpoznávání otisků prstů a proč ani tato technologie není neprůstřelná. Uvidíte, jak lze otisk získat a zneužít, a proč je potřeba kombinovat více faktorů autentizace.
-
-Dále si vysvětlíme principy dvoufaktorové autentizace (např. mobilní aplikace generující jednorázové kódy) a ukážeme, jak zvyšují bezpečnost účtů. Nakonec se podíváme na základy bezpečné komunikace: digitální podpisy, certifikáty a šifrování – tedy technologie stojící za „zámkem“ v prohlížeči i za systémy jako Bitcoin.
-
-Cílem je pochopit nejen jak věci fungují, ale hlavně kde jsou jejich limity – a jak se v digitálním světě skutečně chránit.
-
-Workshop notebooks for the FI MUNI security lab.
+![QR code — github.com/sysox/PoznejFI](docs/qr.png)
 
 | Notebook | Topic |
 |---|---|
-| `PoznejFI.ipynb` | Passwords, OTP, certificates|
-| `biometrics.ipynb` | Reproduction of a real-world attack: fingerprint processing & fake-print DIY |
+| `PoznejFI.ipynb` | Passwords, OTP, certificates |
+| `biometrics.ipynb` | Fingerprint processing & fake-print attack reproduction |
 
 ---
 
@@ -38,9 +32,8 @@ Launch the notebooks directly in your browser — no setup needed:
 
 ## Quick start
 
-```bash
-bash StartNotebook_Linux_or_MacOS.sh
-```
+1. Open a terminal — `Ctrl + T`
+2. Type `bash Start`, press `Tab` to complete, then `Enter`
 
 Jupyter Notebook opens in your browser automatically.
 
