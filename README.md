@@ -3,12 +3,12 @@
 Workshop notebooks for the FI MUNI security lab — identity verification and authentication.
 See [ABSTRAKT.md](ABSTRAKT.md) for the Czech workshop description.
 
-![QR code — github.com/sysox/PoznejFI](docs/qr.png)
+![QR code — github.com/sysox/Authentization](docs/qr.png)
 
 | Notebook | Topic |
 |---|---|
-| `PoznejFI.ipynb` | Passwords, OTP, certificates |
-| `biometrics.ipynb` | Fingerprint processing & fake-print attack reproduction |
+| `Authentization.ipynb` | Passwords, OTP, certificates |
+| `Biometrics.ipynb` | Fingerprint processing & fake-print attack reproduction |
 
 ---
 
